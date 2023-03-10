@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+        }
+
+        body{
+            font-family: monospace;
+            box-sizing: border-box;
+        }
+
+        .logo{
+          display: inline-block;
+          margin: 15px;
+          float: left;
+          height: 60px;
+          width: auto;
+          border-radius: 50%;
+        }
+
+        .navbar{
+            display: flex;
+            float: right;
+            list-style-type: none;
+            margin-top: 30px;
+            overflow: hidden;
+            justify-content: space-between;
+            margin-right: 20px;
+        }
+
+        .navbar li a{
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 14px 16px;
+            margin-right: 30px;
+            font-family: "Roboto",sans-serif;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover{
+            border: 2px solid black;
+            color: white;
+            text-shadow:2px 3px black, 0 0 5px green;
+        }
+
+        header{
+            height: 100vh;
+                width: 100%;
+            background-size: cover;
+            background-position: cover;
+                background-color:grey;
+        }
+        main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+   @keyframes changetext {
+    0% {
+      content: "ahmedabad";
+    }
+    20% {
+      content: "vadodara";
+    }
+    35% {
+      content: "surat";
+    }
+    60% {
+      content: "rajkot";
+    }
+    80% {
+      content: "amreli";
+    }
+    100% {
+      content: "junagath";
+    }
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #cfd2d6;
+}
+footer{
+	position: none;
+	bottom: 10px;
+	background: black;
+	height: 30vh;
+	width: 100%;
+  padding: 30px 30px;
+}
+.footer{
+	display: block;
+	flex-direction: column;
+    flex-flow: column;
+}
+.footer h2{
+    margin: 10px 40px;
+    line-height: 35px;
+    font-size: 25px;
+    text-align: left;
+}
+.footer p{
+    margin-top: -70px;
+    font-size: 20px;
+    text-align: right;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+    </style>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="logo.jpg" style="height: 100px; width: 150px;">
+            </div>
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about us.html">About</a></li>
+                <li><a href="login.html">Log-in</a></li>
+            </ul>
+        </div>
+        <main>
+		<section>
+			<h3>Welcome To Gujarat</h3>
+			<h1>DO COME & VISIT IN CULTURE<br><span class="change_content"> </span> <span style="margin-top: -10px;"></span> </h1>
+		</section>
+	</main>
+    </header>
+    <footer>
+      <div class="footer">
+          <div class="h1">
+              <h2>Contact</h2>
+             <a class="footer__btn" href="mailto:kp4333009@gmail.com">Email Us</a><br>
+             <a href="8980771974">Number</a>
+             </div>
+          <p>SOCIAL MEDIA</p>
+          <ul class="socials"><br><br>
+              <li><a href="https://www.facebook.com/profile.php?id=100065495850604&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://instagram.com/kuldip_patel_193?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://github.com/kuldip-savaliya"><i class="fa fa-github"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+      </div>
+  </footer>  
+</body>
+</html>
